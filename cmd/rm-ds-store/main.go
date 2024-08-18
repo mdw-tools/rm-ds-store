@@ -3,14 +3,15 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/fsnotify/fsnotify"
-	"github.com/mdwhatcott/must/must"
 	"io/fs"
 	"log"
 	"os"
 	"os/signal"
 	"path/filepath"
 	"syscall"
+
+	"github.com/fsnotify/fsnotify"
+	"github.com/mdwhatcott/must/must"
 )
 
 var Version = "dev"
