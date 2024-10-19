@@ -11,7 +11,7 @@ import (
 	"syscall"
 
 	"github.com/fsnotify/fsnotify"
-	"github.com/mdwhatcott/must/must"
+	"github.com/mdw-go/must/must"
 )
 
 var Version = "dev"
@@ -40,7 +40,7 @@ func main() {
 			if d.Name() == ".git" {
 				return filepath.SkipDir
 			}
-			must.Nada(watcher.Add(path))
+			must.Void(watcher.Add(path))
 		}
 		if d.Name() == EVIL {
 			Delete(path)

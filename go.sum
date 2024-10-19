@@ -1,6 +1,6 @@
 github.com/fsnotify/fsnotify v1.7.0 h1:8JEhPFa5W2WU7YfeZzPNqzMP6Lwt7L2715Ggo0nosvA=
 github.com/fsnotify/fsnotify v1.7.0/go.mod h1:40Bi/Hjc2AVfZrqy+aj+yEI+/bRxZnMJyTJwOpGvigM=
-github.com/mdwhatcott/must v1.2.0 h1:X+Ay0ZIp2pMFT0HpFwxg8sCvZOAeyRPb+yQ477DWhbs=
-github.com/mdwhatcott/must v1.2.0/go.mod h1:3rldN1MW4me3st97YNJxDm3L+zo5R5kKoh7Km75kWnY=
+github.com/mdw-go/must v1.4.0 h1:rxXhHkmDAsM9iq86V8+jFUNtPHW+CbL5glMrTa8Os/M=
+github.com/mdw-go/must v1.4.0/go.mod h1:egFwsdnV884XLvyCRH1qZ922IpuuemotO7ej0zEkcyM=
 golang.org/x/sys v0.4.0 h1:Zr2JFtRQNX3BCZ8YtxRE9hNJYC8J6I1MVbMg6owUp18=
 golang.org/x/sys v0.4.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
